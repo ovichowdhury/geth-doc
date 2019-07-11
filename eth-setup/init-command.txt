@@ -1,0 +1,1 @@
+geth --syncmode 'full' --port 30311 --rpc --rpcaddr 'localhost' --rpcport 8545 --rpccorsdomain "*" --rpcapi 'personal,db,eth,net,web3,txpool,miner,admin' --networkid 50 --gasprice '1' -unlock '0x604e111a5f2c3c39ef6fed00683d08ab76691df9' --password pass.txt --mine --nodiscover
